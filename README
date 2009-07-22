@@ -10,6 +10,13 @@ Note, that unlike the PHP version, I have not gotten around
 to making the date display pretty.  As time permits, or if
 I find a good script written by someone else, I'll implement.
 
+Required external gems
+curb (cURL for Ruby)
+  gem instal curb
+
+yajl (YAJL C Bindings for Ruby)
+  See http://github.com/brianmario/yajl-ruby/tree/master
+
 To implement this on your page, simply use the following code.
 
 require 'TwitterBadge.rb'
