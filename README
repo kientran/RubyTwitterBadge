@@ -1,0 +1,21 @@
+Author::    Kien Tran(mailto:kientran@kientran.com)
+Copyright:: Copyright (c) 2009
+License::   MIT 
+Date:: June 12, 2009
+
+Ruby version of the Twitter Badge php script.  This script
+supports caching of twitter updates to prevent API flooding.
+
+Note, that unlike the PHP version, I have not gotten around
+to making the date display pretty.  As time permits, or if
+I find a good script written by someone else, I'll implement.
+
+To implement this on your page, simply use the following code.
+
+require 'TwitterBadge.rb'
+puts twitterBadge('username', 'password')
+
+This can go inside any Ruby templating you might be using.
+
+Future implementation will include oAUTH as well as database
+storage of tweets.
